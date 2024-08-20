@@ -185,26 +185,28 @@ footer {
 }
 
 @media (max-width: 768px) {
-}
-
-body {
+    body {
     height: 100%;
     overflow: auto;
-}
+}}
 
-header {
+@media (max-width: 768px) {
+    header {
     flex-direction: column;
     text-align: center;
-}
+}}
 
-main {
+@media (max-width: 768px) {
+    main {
     flex-direction: column;
-}
+}}
 
-nav {
+@media (max-width: 768px) {
+    nav {
     border-bottom: 2px solid #ccc;
-}
+}}
 
+@media (max-width: 768px) {
 .card-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
+}}
